@@ -40,7 +40,7 @@ else:
 
 total = costo + impuesto
 
-print(f"Costo de la llamada (sin impuestos): {costo:.2f} euros")
+print(f"Costo de la llamada: {costo:.2f} euros")
 print(f"llamada con inpuesto: {impuesto:.2f} euros")
 print(f"El total de tu llamada es: {total:.2f} euros")
 print("Gracias")
