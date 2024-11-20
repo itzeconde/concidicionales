@@ -38,9 +38,9 @@ else:
     impuesto = costo* 0.10 
 
 
-total_a_pagar = costo + impuesto
+total = costo + impuesto
 
 print(f"Costo de la llamada (sin impuestos): {costo:.2f} euros")
 print(f"llamada con inpuesto: {impuesto:.2f} euros")
-print(f"El total de tu llamada es: {total_a_pagar:.2f} euros")
+print(f"El total de tu llamada es: {total:.2f} euros")
 print("Gracias")
